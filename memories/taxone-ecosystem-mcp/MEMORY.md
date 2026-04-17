@@ -1,0 +1,3 @@
+- [Projeto ADO Story Writer](project_ado_story_writer.md) — MCP server + skill /write-story para escrever histórias ADO com impact analysis
+- [Ecossistema Evolução Técnica](project_ecosystem_context.md) — 46 componentes: 34 serviços + 12 libs framework, dependências via pom.xml
+- [Comunicar em Português](feedback_language_pt.md) — Sempre falar em pt-BR, código em inglês

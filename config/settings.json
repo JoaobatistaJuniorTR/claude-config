@@ -1,0 +1,146 @@
+{
+  "enabledPlugins": {
+    "superpowers@claude-plugins-official": true,
+    "figma@claude-plugins-official": true
+  },
+  "env": {
+    "ADO_PAT": "<<YOUR_ADO_PAT_HERE>>",
+    "ADO_MCP_AUTH_TOKEN": "<<YOUR_ADO_MCP_AUTH_TOKEN_HERE>>",
+    "ADO_ORG": "tr-ggo",
+    "ADO_PROJECT": "Mastersaf Fiscal Solutions"
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"C:\\Users\\6045076\\.pixel-agents\\hooks\\claude-hook.js\"",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+    "SessionEnd": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"C:\\Users\\6045076\\.pixel-agents\\hooks\\claude-hook.js\"",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"C:\\Users\\6045076\\.pixel-agents\\hooks\\claude-hook.js\"",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+    "PermissionRequest": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"C:\\Users\\6045076\\.pixel-agents\\hooks\\claude-hook.js\"",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+    "Notification": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"C:\\Users\\6045076\\.pixel-agents\\hooks\\claude-hook.js\"",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"C:\\Users\\6045076\\.pixel-agents\\hooks\\claude-hook.js\"",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"C:\\Users\\6045076\\.pixel-agents\\hooks\\claude-hook.js\"",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"C:\\Users\\6045076\\.pixel-agents\\hooks\\claude-hook.js\"",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+    "PostToolUseFailure": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"C:\\Users\\6045076\\.pixel-agents\\hooks\\claude-hook.js\"",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+    "SubagentStart": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"C:\\Users\\6045076\\.pixel-agents\\hooks\\claude-hook.js\"",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+    "SubagentStop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"C:\\Users\\6045076\\.pixel-agents\\hooks\\claude-hook.js\"",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}

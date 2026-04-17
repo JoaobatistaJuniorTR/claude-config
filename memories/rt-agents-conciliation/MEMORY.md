@@ -1,0 +1,11 @@
+- [MVP Conciliação - Decisões](project_mvp_decisions.md) — Bilateral only, competência mês/ano, empresa/estab via TaxOne tables
+- [Projetos Relacionados](reference_related_projects.md) — rt-credito-api, rt-debito-api, rt-input-service como referência
+- [Database Connection](reference_database_connection.md) — PostgreSQL via WSL docker, tenant-provisioning-db, db=tenants_connection
+- [API Config Local](reference_api_config.md) — Porta 3005, prefix rtagentsconciliation
+- [Frontend é taxonert_frontend](feedback_frontend_repo.md) — NUNCA usar rt-frontend-conciliation
+- [Regras de dados inbox/conciliation](project_data_model_rules.md) — document_type=DEBITO/CREDITO, nunca FISCO como classification
+- [Comunicar em Português](feedback_language_pt.md) — Sempre falar em pt-BR, código em inglês
+- [Docker via WSL](feedback_docker_wsl.md) — Prefixar comandos docker com `wsl`
+- [Plano matchTypeLabel pendente](project_match_type_labels_plan.md) — Backend retornar label amigável junto com matchType, plano em .claude/plans/
+- [NUNCA apagar documents_inbox](feedback_never_delete_inbox.md) — Dados reais via Kafka, irrecuperáveis. Jamais TRUNCATE/DELETE.
+- [Estilo criativo de PR](feedback_pr_style.md) — PRs com descrição narrativa, humor técnico, pt-BR, seções temáticas e citação irônica

@@ -1,0 +1,14 @@
+# Never commit real secrets
+# If you replace placeholders in settings.json with real tokens, add it here:
+# config/settings.json
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
