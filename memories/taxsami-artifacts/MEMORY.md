@@ -1,0 +1,3 @@
+- [Projeto ADO](feedback_project_name.md) — Sempre usar "Mastersaf Fiscal Solutions" como projeto ADO, nunca perguntar
+- [Estilo descrição ADO](feedback_ado_description_style.md) — Descriptions de work items: só o que fazer, sem status/checkmarks
+- [Parent POM pattern](project_parent_pom_pattern.md) — taxsami_artifacts usa parent pom: bumpar versão no módulo E no pom.xml raiz

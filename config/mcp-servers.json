@@ -1,0 +1,58 @@
+{
+  "_comment": "MCP servers configurados no ~/.claude.json. Tokens sanitizados — substituir placeholders por valores reais. Veja config/mcp-servers.md para instruções.",
+  "mcpServers": {
+    "azure-devops": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@azure-devops/mcp",
+        "tr-ggo",
+        "-d",
+        "core",
+        "work",
+        "work-items",
+        "search",
+        "wiki",
+        "pipelines"
+      ],
+      "env": {
+        "AZURE_DEVOPS_PAT": "<AZURE_DEVOPS_PAT>"
+      }
+    },
+    "SONAR_MCP": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "git+https://github.com/JoaobatistaJuniorTR/mcp-sonar.git",
+        "mcp-sonarqube"
+      ],
+      "env": {
+        "SONARQUBE_URL": "https://sonar.qa.thomsonreuters.com",
+        "SONARQUBE_TOKEN": "<SONARQUBE_TOKEN>"
+      }
+    },
+    "saffron-mcp-server": {
+      "url": "https://aideployment-prod.plexus.gcs.int.thomsonreuters.com/207870/ask-saffron-mcp/",
+      "type": "http"
+    },
+    "taxone-ecosystem": {
+      "command": "node",
+      "args": [
+        "C:/repositories/taxone-ecosystem-mcp/dist/src/index.js"
+      ],
+      "env": {
+        "KNOWLEDGE_PATH": "C:/repositories/taxone-ecosystem-mcp/knowledge"
+      }
+    },
+    "tr-code-scan-mcp": {
+      "autoApprove": [],
+      "disabled": false,
+      "timeout": 3600,
+      "type": "stdio",
+      "command": "C:\\Users\\<USER>\\TR\\tr-code-scan-windows.exe",
+      "args": [
+        "mcp-server"
+      ]
+    }
+  }
+}

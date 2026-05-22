@@ -45,7 +45,7 @@ For fixes, adjustments, translations, and minor changes to existing code.
 ```
 ┌─────────────────────────────────────────────┐
 │ 1. GIT WORKFLOW — Moment 1                  │
-│    Follow @git-workflow skill               │
+│    Follow git-workflow skill (global)               │
 │    → Check branch, ask user, create if needed│
 └──────────────────┬──────────────────────────┘
                    │
@@ -72,7 +72,7 @@ For fixes, adjustments, translations, and minor changes to existing code.
                    │
 ┌──────────────────▼──────────────────────────┐
 │ 4. GIT WORKFLOW — Moment 2                  │
-│    Follow @git-workflow skill               │
+│    Follow git-workflow skill (global)               │
 │    → Commit (conventional, English)         │
 │    → Push                                   │
 │    → PR to develop                          │
@@ -88,7 +88,7 @@ For new screens, Figma implementations, and prompt-to-design.
 ```
 ┌─────────────────────────────────────────────┐
 │ 1. GIT WORKFLOW — Moment 1                  │
-│    Follow @git-workflow skill               │
+│    Follow git-workflow skill (global)               │
 │    → Check branch, ask user, create if needed│
 └──────────────────┬──────────────────────────┘
                    │
@@ -106,7 +106,7 @@ For new screens, Figma implementations, and prompt-to-design.
                    │
 ┌──────────────────▼──────────────────────────┐
 │ 3. GIT WORKFLOW — Moment 2                  │
-│    Follow @git-workflow skill               │
+│    Follow git-workflow skill (global)               │
 │    → Commit (conventional, English)         │
 │    → Push                                   │
 │    → PR to develop                          │

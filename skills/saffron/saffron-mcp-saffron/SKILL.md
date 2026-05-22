@@ -55,4 +55,4 @@ For **`get-saffron-code`**, **`get-saffron-code-equivalent`**, and **`get-saffro
 ## Related skills
 
 - [saffron-figma-angular](../saffron-figma-angular/SKILL.md)
-- [saffron-angular-custom-elements](../saffron-angular-custom-elements/SKILL.md)
+- [saffron-angular-integration](../saffron-angular-integration/SKILL.md)

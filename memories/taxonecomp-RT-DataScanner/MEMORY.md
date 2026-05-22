@@ -1,0 +1,3 @@
+- [Circuit Breaker Design](project_circuit-breaker-design.md) — Design completo do CB por tenant, aprovado mas pendente de revisão sobre query errors
+- [CB: Query Errors](feedback_circuit-breaker-query-errors.md) — Gargalo real foi por tabela inexistente, não falha de conexão. Revisar quais exceções ativam o CB
+- [WIP Check Draft Override Bug](project_wip-check-draft-override-bug.md) — Check WIP trava quando PR dev e PR rc draft compartilham HEAD; workaround obrigatória no /taxone-fix

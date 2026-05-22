@@ -1,6 +1,14 @@
 # Never commit real secrets
-# If you replace placeholders in settings.json with real tokens, add it here:
+# If you replace placeholders in settings.json/mcp-servers.json with real tokens, add them here:
 # config/settings.json
+# config/mcp-servers.json
+
+# Local Claude artifacts that may leak into the repo
+**/.claude/
+!projects/*/.claude/  # exceção: pastas .claude versionadas de projetos específicos
+
+# Skills/agents zips (artefatos de plugin install)
+*.zip
 
 # OS files
 .DS_Store

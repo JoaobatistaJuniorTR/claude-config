@@ -1,0 +1,2 @@
+- [ADO project default](feedback_ado_project.md) — ADO: project="Mastersaf Fiscal Solutions", Component="TaxOne", nunca perguntar
+- [ADO comments HTML](feedback_ado_comments_html.md) — Comentários ADO: usar HTML com `<br>` entre parágrafos, nunca Markdown puro

@@ -1,0 +1,2 @@
+- [No stdin redirect with gh CLI](feedback_no-stdin-redirect-gh.md) — PowerShell não suporta @- / heredoc com gh; usar --notes inline
+- [RT JFrog artifact mapping](reference_rt-jfrog-mapping.md) — Mapeamento servicos RT → caminhos JFrog (frontend=portal, repo -api gera artefato sem -api)

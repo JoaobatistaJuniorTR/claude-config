@@ -1,0 +1,3 @@
+- [Echo Overview](project_echo-overview.md) — Push-to-Talk Windows app, Whisper via LiteLLM proxy corporativo TR
+- [Evolution Ideas](project_echo-evolution-ideas.md) — Ideias priorizadas: pós-processamento LLM, comandos de voz, dicionário customizado
+- [Build Gotchas](project_echo-build-gotchas.md) — Armadilhas PyInstaller: collect_all litellm/tiktoken, SSL corporativo, onedir vs onefile

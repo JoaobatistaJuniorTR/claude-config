@@ -1,13 +1,11 @@
 {
-  "enabledPlugins": {
-    "superpowers@claude-plugins-official": true,
-    "figma@claude-plugins-official": true
-  },
   "env": {
     "ADO_PAT": "<<YOUR_ADO_PAT_HERE>>",
     "ADO_MCP_AUTH_TOKEN": "<<YOUR_ADO_MCP_AUTH_TOKEN_HERE>>",
     "ADO_ORG": "tr-ggo",
-    "ADO_PROJECT": "Mastersaf Fiscal Solutions"
+    "ADO_PROJECT": "Mastersaf Fiscal Solutions",
+    "TEAMS_WEBHOOK_URL_TAXREFORM_DEV_TECHOPS": "<<YOUR_TEAMS_WEBHOOK_URL_HERE>>",
+    "TEAMS_WEBHOOK_URL_TAXONE_EVOLUCAO_TECNICA": "<<YOUR_TEAMS_WEBHOOK_URL_HERE>>"
   },
   "hooks": {
     "SessionStart": [
@@ -16,7 +14,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node \"C:\\Users\\6045076\\.pixel-agents\\hooks\\claude-hook.js\"",
+            "command": "node \"C:\\Users\\<USER>\\.pixel-agents\\hooks\\claude-hook.js\"",
             "timeout": 5
           }
         ]
@@ -28,7 +26,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node \"C:\\Users\\6045076\\.pixel-agents\\hooks\\claude-hook.js\"",
+            "command": "node \"C:\\Users\\<USER>\\.pixel-agents\\hooks\\claude-hook.js\"",
             "timeout": 5
           }
         ]
@@ -40,7 +38,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node \"C:\\Users\\6045076\\.pixel-agents\\hooks\\claude-hook.js\"",
+            "command": "node \"C:\\Users\\<USER>\\.pixel-agents\\hooks\\claude-hook.js\"",
             "timeout": 5
           }
         ]
@@ -52,7 +50,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node \"C:\\Users\\6045076\\.pixel-agents\\hooks\\claude-hook.js\"",
+            "command": "node \"C:\\Users\\<USER>\\.pixel-agents\\hooks\\claude-hook.js\"",
             "timeout": 5
           }
         ]
@@ -64,7 +62,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node \"C:\\Users\\6045076\\.pixel-agents\\hooks\\claude-hook.js\"",
+            "command": "node \"C:\\Users\\<USER>\\.pixel-agents\\hooks\\claude-hook.js\"",
             "timeout": 5
           }
         ]
@@ -76,7 +74,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node \"C:\\Users\\6045076\\.pixel-agents\\hooks\\claude-hook.js\"",
+            "command": "node \"C:\\Users\\<USER>\\.pixel-agents\\hooks\\claude-hook.js\"",
             "timeout": 5
           }
         ]
@@ -84,11 +82,20 @@
     ],
     "PreToolUse": [
       {
+        "matcher": "Write|Edit|MultiEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/c/Users/<USER>/.ai-tracker/aitracker.exe checkpoint claude --hook-input stdin"
+          }
+        ]
+      },
+      {
         "matcher": "",
         "hooks": [
           {
             "type": "command",
-            "command": "node \"C:\\Users\\6045076\\.pixel-agents\\hooks\\claude-hook.js\"",
+            "command": "node \"C:\\Users\\<USER>\\.pixel-agents\\hooks\\claude-hook.js\"",
             "timeout": 5
           }
         ]
@@ -96,11 +103,20 @@
     ],
     "PostToolUse": [
       {
+        "matcher": "Write|Edit|MultiEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/c/Users/<USER>/.ai-tracker/aitracker.exe checkpoint claude --hook-input stdin"
+          }
+        ]
+      },
+      {
         "matcher": "",
         "hooks": [
           {
             "type": "command",
-            "command": "node \"C:\\Users\\6045076\\.pixel-agents\\hooks\\claude-hook.js\"",
+            "command": "node \"C:\\Users\\<USER>\\.pixel-agents\\hooks\\claude-hook.js\"",
             "timeout": 5
           }
         ]
@@ -112,7 +128,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node \"C:\\Users\\6045076\\.pixel-agents\\hooks\\claude-hook.js\"",
+            "command": "node \"C:\\Users\\<USER>\\.pixel-agents\\hooks\\claude-hook.js\"",
             "timeout": 5
           }
         ]
@@ -124,7 +140,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node \"C:\\Users\\6045076\\.pixel-agents\\hooks\\claude-hook.js\"",
+            "command": "node \"C:\\Users\\<USER>\\.pixel-agents\\hooks\\claude-hook.js\"",
             "timeout": 5
           }
         ]
@@ -136,11 +152,17 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node \"C:\\Users\\6045076\\.pixel-agents\\hooks\\claude-hook.js\"",
+            "command": "node \"C:\\Users\\<USER>\\.pixel-agents\\hooks\\claude-hook.js\"",
             "timeout": 5
           }
         ]
       }
     ]
-  }
+  },
+  "enabledPlugins": {
+    "superpowers@claude-plugins-official": true,
+    "figma@claude-plugins-official": true
+  },
+  "autoUpdatesChannel": "latest",
+  "skipDangerousModePermissionPrompt": true
 }

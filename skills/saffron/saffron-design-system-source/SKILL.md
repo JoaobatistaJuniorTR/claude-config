@@ -30,4 +30,4 @@ From repo root: `yarn build` — **core-styles** must build before **core-compon
 ## Related
 
 - [saffron-figma-angular](../saffron-figma-angular/SKILL.md)
-- [saffron-angular-custom-elements](../saffron-angular-custom-elements/SKILL.md)
+- [saffron-angular-integration](../saffron-angular-integration/SKILL.md)

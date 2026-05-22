@@ -9,3 +9,4 @@
 - [Plano matchTypeLabel pendente](project_match_type_labels_plan.md) — Backend retornar label amigável junto com matchType, plano em .claude/plans/
 - [NUNCA apagar documents_inbox](feedback_never_delete_inbox.md) — Dados reais via Kafka, irrecuperáveis. Jamais TRUNCATE/DELETE.
 - [Estilo criativo de PR](feedback_pr_style.md) — PRs com descrição narrativa, humor técnico, pt-BR, seções temáticas e citação irônica
+- [Gap rt-input-service: 5 campos faltando](project_rt_input_service_gap.md) — cnpjCpfPfpj, codDocto, descChaveDfe, vlrTotIbs, vlrTotIs impedem matching completo

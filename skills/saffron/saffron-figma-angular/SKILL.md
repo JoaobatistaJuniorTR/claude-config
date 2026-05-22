@@ -28,7 +28,7 @@ Turn frames and component instances in Figma into **Angular** templates and styl
    Call **get-saffron-a11y-attributes** with kebab-case component tags (e.g. `saf-text-field`) and `framework: "angular"` when the tool accepts it. Apply labels, roles, and keyboard behavior per the tool output and Saffron docs.
 
 5. **Implement in Angular**  
-   Follow **saffron-angular-custom-elements**: `CUSTOM_ELEMENTS_SCHEMA`, kebab-case tags, correct property vs attribute binding, custom events, slots.
+   Follow **saffron-angular-integration**: `CUSTOM_ELEMENTS_SCHEMA`, kebab-case tags, correct property vs attribute binding, custom events, slots.
 
 6. **Verify against Storybook**  
    When the `saffron_design_system` repo is available locally, locate the component’s stories under `core-packages/core-components` for variants, states, and API edge cases that Figma may not show.
@@ -53,6 +53,6 @@ If a running Storybook or app URL is available, **get-saffron-image** can captur
 ## See also
 
 - [saffron-mcp-saffron](../saffron-mcp-saffron/SKILL.md) — MCP tool reference
-- [saffron-angular-custom-elements](../saffron-angular-custom-elements/SKILL.md) — Angular integration details
-- [saffron-design-tokens](../saffron-design-tokens/SKILL.md) — token workflow
-- [saffron-accessibility](../saffron-accessibility/SKILL.md) — WCAG-focused usage
+- [saffron-angular-integration](../saffron-angular-integration/SKILL.md) — Angular integration details
+- [saffron-tokens](../saffron-tokens/SKILL.md) — token workflow
+- [saffron-a11y](../saffron-a11y/SKILL.md) — WCAG-focused usage
